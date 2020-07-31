@@ -1,0 +1,109 @@
+/* Images*/
+
+#logo
+{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+#logo img
+{
+    width: 150px;
+    height: 150px;
+}
+
+.sun{
+	margin-right: 700px;
+}
+.facebook,.tweeter{
+	width: 90px;
+}
+
+/* Navigation */
+header{
+	background:url("images/papier.jpg"),fixed no-repeat;
+	margin-top: 150px;
+}
+
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+    margin-left: 300px;
+}
+
+nav li
+{
+    margin-right: 15px;
+    font-size: x-large;
+
+    }
+
+nav a
+{
+    font-size: 1.3em;
+    color: #181818;
+    padding-bottom: 3px;
+    text-decoration: none;
+
+}
+/*Corps*/
+body{
+	background:url("images/fond.jpg"),fixed no-repeat;
+}
+
+nav a:hover
+{
+    color: #760001;
+    border-bottom: 3px solid #760001;
+}
+
+h1{
+	text-shadow:0 0 2px #FFD100,0 0 30px #FFD100,0px 0px 5px #FFD100, 0 0 150px #FFD100;
+	color:green;
+}
+
+.presentationtexte{
+
+	font-family: georgia;
+	color: red;
+	position: absolute;
+	top: 26%;
+	right:38%;
+	width: 350px;
+	height: 300px;
+
+}
+.titre{
+	color: #5F9EA0;
+}
+
+
+/*Sections*/
+#cotegauche{
+	position: absolute;
+
+}
+#gauche{
+	width:600px;
+	margin-left: 0px;
+	background-color: white;
+	overflow: scroll;
+
+}
+
+#droite{
+	margin-left: 1000px;
+	background-color: white;
+	overflow: scroll;
+}
+.newsletter{
+	border: 2px, solid , blue;
+}
+
+/*Footer*/
+footer{
+	position:absolute;
+	top:90%;
+}

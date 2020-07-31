@@ -1,0 +1,97 @@
+/* Logo*/
+
+#logo
+{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+#logo img
+{
+    width: 150px;
+    height: 150px;
+}
+
+/* Navigation */
+
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+    margin-left: 300px;
+}
+
+nav li
+{
+    margin-right: 15px;
+    font-size: x-large;
+
+    }
+
+nav a
+{
+    font-size: 1.3em;
+    color: #181818;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+body{
+	background:url("images/fond.jpg"),fixed no-repeat;
+}
+nav a:hover
+{
+    color: #760001;
+    border-bottom: 3px solid #760001;
+}
+
+.chambres_img{
+	height: 150px;
+	width: 150px;
+}
+.titre{
+	color: 
+}
+.presentationtexte{
+
+	font-family: georgia;
+	color: red;
+	position: center;
+	margin-left: 500px;
+
+}
+.titre{
+	color: #5F9EA0;
+}
+
+
+p{
+	border-radius: 10px;
+	border: 3px solid grey;
+}
+
+
+/*Sections*/
+
+section{
+	display: flex;
+	flex-direction: column;
+	flex-direction: space-around;
+	align-content: space-around;
+	width:600px;
+	margin-left: 0px;
+	border: 5px solid black;
+	background-color: white;
+}
+
+
+h1{
+	text-shadow:0 0 2px #FFD100,0 0 30px #FFD100,0px 0px 5px #FFD100, 0 0 150px #FFD100;
+	color:green;
+}
+
+
+	font-size: large;
+
+}
